@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+       <TextView
+        android:id="@+id/temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/temp"
+        android:textStyle="bold"
+        android:textSize="45sp"
+                android:paddingLeft="10dip"
+        
+        
+  />
+    
+    <TextView
+        android:id="@+id/viewTempIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TempIn"
+        android:textSize="25sp"
+        android:paddingLeft="20dip"
+        
+ />
+        <TextView
+        android:id="@+id/viewTempOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TempOut"
+        android:textSize="25sp"
+        android:paddingLeft="20dip"
+        
+        
+ />
+         
+        
+        <TextView
+        android:id="@+id/humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hum"
+        android:textStyle="bold"
+        android:textSize="45sp"
+                android:paddingLeft="10dip"
+        
+        
+  />
+    
+            <TextView
+        android:id="@+id/viewHumIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="@string/HumIn"
+        android:paddingLeft="20dip"
+        
+ />
+    <TextView
+        android:id="@+id/viewHumOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:paddingLeft="20dip"
+ 		android:text="@string/HumOut"
+ />
+    
+</LinearLayout>

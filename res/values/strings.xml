@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ecohome</string>
+    <string name="action_settings">Settings</string>
+    <string name="test">Welcome to Ecohome app!</string>
+    <string name="temp">Temperatura:</string>
+    <string name="hum">Umidità:</string>
+    <string name="HumIn">Interna: 52%</string>
+    <string name="HumOut">Esterna: 89%:</string>
+    <string name="TempIn">Interna: 20.2°</string>
+    <string name="TempOut">Esterna: 8.9°</string>
+    
+    <string name="value">Valore:</string>
+
+</resources>
