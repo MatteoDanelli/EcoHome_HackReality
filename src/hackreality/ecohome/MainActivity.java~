@@ -33,11 +33,7 @@ public class MainActivity extends Activity {
 	private static final String TAG_TEMPIN = "temperatura_interna";
 	private static final String TAG_TEMPOUT = "temperatura_esterna";
 
-	private static final String TAG1 = "time";
-	private static final String TAG2 = "milliseconds_since_epoch";
-	private static final String TAG3 = "date";
-
-	private static final String DEBUG = "DEBUG";
+	private static final String DEBUG = null;
 	
 	String tempinString = "";
 	String tempoutString="";
